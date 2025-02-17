@@ -11,12 +11,12 @@ const Hero = () => {
 
       <div>
       <div className=' flex justify-center text-center'>
-        <h3 className=' sm:text-4xl text-2xl text mt-14 sm:mt-20  font-medium'>Tech Fest 2025</h3>
-        <Image src={vectorwhite} width="30px" height="30px" alt='vector' className='  sm:w-10 w-8 sm:h-10 h-8 sm:mt-14 mt-10'  /> 
+        <h3 className=' sm:text-4xl text-2xl text mt-10 sm:mt-20  font-medium'>Tech Fest 2025</h3>
+        <Image src={vectorwhite} width="30px" height="30px" alt='vector' className='  sm:w-10 w-8 sm:h-10 h-8 sm:mt-14 mt-7'  /> 
       </div>
       <p className='text-gray-400'>Sat, Feb 25</p>
       <h1 className='sm:text-8xl text-6xl font-bold'>Connect, Learn <br/> & Lead</h1>
-        <Image src={underline} width="50px" height="50px" alt='underline' className='sm:ml-[28%] ml-[20%] sm:mt-7 my-3  lg:w-[800px] sm:w-[550px] w-[250px]' /> 
+        <Image src={underline} width="50px" height="50px" alt='underline' className='sm:ml-[28%] ml-[20%] sm:mt-7 mt-1  lg:w-[800px] sm:w-[550px] w-[250px]' /> 
         <Timer launchDate="2025-02-25T02:00:00"/>
         
         

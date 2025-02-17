@@ -39,38 +39,13 @@ const Timer = ({ launchDate }) => {
 
     return (
       
-<div className='  border border-[#3A6CFF] sm:hidden p-4 text-2xl rounded-3xl  w-[60%] text-center ml-20  my-2'>
+<div className='  border border-[#3A6CFF] sm:hidden p-4 text-2xl rounded-3xl  w-[60%] text-center ml-20  mt-2'>
           <span>  {timeLeft.days} : </span>  <span>        {timeLeft.hours}
           : </span> <span> {timeLeft.minutes} : </span> <span className='text-gray-400'> {timeLeft.seconds} </span>
           
        </div>
 
-    // <div className="flex justify-center lg:justify-start mt-10 gap-3">
-    //   <span className="flex flex-col justify-center items-center bg-black text-yellow text-3xl lg:text-5xl w-36 py-3 shadow-lg rounded-lg">
-    //     {timeLeft.days}
-    //     <small className="text-xs lg:text-sm uppercase font-semibold text-white">
-    //       Days
-    //     </small>
-    //   </span>
-    //   <span className="flex flex-col justify-center items-center bg-black text-yellow text-3xl lg:text-5xl w-36 py-3 shadow-lg rounded-lg">
-    //     {timeLeft.hours}
-    //     <small className="text-xs lg:text-sm uppercase font-semibold text-white">
-    //       Hours
-    //     </small>
-    //   </span>
-    //   <span className="flex flex-col justify-center items-center bg-black text-yellow text-3xl lg:text-5xl w-36 py-3 shadow-lg rounded-lg">
-    //     {timeLeft.minutes}
-    //     <small className="text-xs lg:text-sm uppercase font-semibold text-white">
-    //       Minutes
-    //     </small>
-    //   </span>
-    //   <span className="flex flex-col justify-center items-center bg-black text-yellow text-3xl lg:text-5xl w-36 py-3 shadow-lg rounded-lg">
-    //     {timeLeft.seconds}
-    //     <small className="text-xs lg:text-sm uppercase font-semibold text-white">
-    //       Seconds
-    //     </small>
-    //   </span>
-    // </div>
+    
   );
 };
 
