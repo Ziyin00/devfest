@@ -26,7 +26,7 @@ const Hero = () => {
        </div>
       <div className='flex flex-col justify-center sm:bg-black w-screen items-center sm:opacity-100 opacity-70'>
 
-        <Image src={devgif} width={700} height={10} alt='underline' className='  flex  scale-x-150 sm:scale-x-105 scale-150  sm:h-[70vh] sm:w-[70vw] h-[45vh] sm:mt-40 -mt-2 ' /> 
+        <Image src={devgif} width={700} height={10} alt='underline' className='  flex  scale-x-150 sm:scale-x-105 scale-150  sm:h-[70vh] sm:w-[70vw] h-[45vh] sm:mt-40 -mt-4 ' /> 
         <div className='bg-white h-40 -mt-40 w-screen z-10 hidden sm:flex'></div> 
         
       </div>
