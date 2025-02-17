@@ -8,7 +8,7 @@ const Guest = () => {
     <div className='bg-white text-black w-vw  mt-10 sm:-mt-10 mb-20 h-screen text-center mx-[15%]'>
       <div className=' flex justify-center text-center'>
               <h3 className=' text-4xl mt-0  font-extrabold'>Our Guests</h3>
-              <Image src={vectorblack} width="30px" height="30px" alt='vector' className='  w-10 h-10 -mt-4'  /> 
+              <Image src={vectorblack} width="30px" height="30px" alt='vector' className='  w-10 h-10 -mt-4 hidden sm:flex'  /> 
       </div>
       <p className='font-light'>Meet the Minds Shaping Our Tech Future!</p>
 

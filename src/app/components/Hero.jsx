@@ -14,7 +14,7 @@ const Hero = () => {
 
       <div className=' flex justify-center text-center'>
         <h3 className=' sm:text-4xl text-2xl text mt-10 sm:mt-20  font-medium'>Tech Fest 2025</h3>
-        <Image src={vectorwhite} width="30px" height="30px" alt='vector' className='  sm:w-10 w-8 sm:h-10 h-8 sm:mt-14 mt-7'  /> 
+        <Image src={vectorwhite} width="30px" height="30px" alt='vector' className='  sm:w-10 w-8 sm:h-10 h-8 sm:mt-14 mt-7 hidden sm:flex'  /> 
       </div>
       <p className='text-gray-400'>Sat, Feb 25</p>
       <h1 className='sm:text-8xl text-6xl font-bold'>Connect, Learn <br/> & Lead</h1>

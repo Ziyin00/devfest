@@ -9,7 +9,7 @@ const Programs = () => {
     <div className='bg-white text-black mt-0  sm:-mt-14 h-screen text-center sm:mx-[20%]'>
       
       <div className=' flex justify-center text-center '>
-              <Image src={vectorblack} width="30px" height="30px" alt='vector' className='w-10 h-10 mt-14'  /> 
+              <Image src={vectorblack} width="30px" height="30px" alt='vector' className='w-10 h-10 mt-14 hidden sm:flex'  /> 
               <h3 className=' text-4xl mt-20  font-medium '> What&rsquo;s in Store?</h3>
       </div>
       
