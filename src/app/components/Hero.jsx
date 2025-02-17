@@ -22,7 +22,7 @@ const Hero = () => {
         
         <div className='z-10'>
           
-      <p className='sm:mx-[20%] mx-[8%] font-light text-gray-100 sm:text-gray-300 '><span className='font-bold'>More than an event—it's a movement! </span>A place to connect, create, and grow with our tech family. Whether you're starting out or leveling up, this is where innovation meets opportunity!</p>
+      <p className='sm:mx-[20%] mx-[8%] font-light text-white sm:text-gray-300 '><span className='font-bold'>More than an event—it's a movement! </span>A place to connect, create, and grow with our tech family. Whether you're starting out or leveling up, this is where innovation meets opportunity!</p>
        </div>
       <div className='flex flex-col justify-center sm:bg-black w-screen items-center sm:opacity-100 opacity-70'>
 
